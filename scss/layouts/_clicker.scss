@@ -1,0 +1,45 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  #button {
+    background-color: $firebrick;
+    border-color: $firebrick;
+    box-shadow: $dark-red;
+    color: $white;
+
+    position: relative;
+    width: 200px;
+    height: 75px;
+    font-size: .75rem;
+    font-weight: 700;
+    border-radius: 10px;
+    font-family: inherit;
+    outline: none;
+    &:active {
+      margin-top: 10px;
+    }
+  }
+  #display {
+    position: absolute;
+    top: 30vh;
+    left: 0;
+    right: 0;
+  }
+  #counter {
+    position: absolute;
+    bottom: 30vh;
+  }
+
+  #author {
+    position: absolute;
+    bottom: 5vh;
+    font-size: 0.5rem;
+    a {
+      color: unset;
+      text-decoration: none;
+    }
+  }
+}

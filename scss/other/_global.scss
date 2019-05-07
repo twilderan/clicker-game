@@ -1,0 +1,14 @@
+html {
+  font-family: "Press Start 2P", sans-serif;
+  font-size: 2rem;
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: $light-black;
+    color: $white;
+  }
+}

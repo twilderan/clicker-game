@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "*",
+    "gulp-beautify": "*",
+    "gulp-concat": "*",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-jshint": "*",
+    "gulp-load-plugins": "*",
+    "gulp-notify": "*",
+    "gulp-sass": "*",
+    "gulp-shell": "*",
+    "gulp-sourcemaps": "*",
+    "gulp-uglify": "*",
+    "jshint": "^2.9.6",
+    "main-bower-files": "*"
+  },
+  "devDependencies": {
+    "tar": ">=4.4.2"
+  }
+}
