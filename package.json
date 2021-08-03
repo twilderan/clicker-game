@@ -17,6 +17,6 @@
     "main-bower-files": "*"
   },
   "devDependencies": {
-    "tar": ">=4.4.2"
+    "tar": ">=4.4.15"
   }
 }
